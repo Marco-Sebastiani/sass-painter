@@ -1,0 +1,10 @@
+// colors
+$colorBlack: #000;
+$lightBlue: #009cff;
+$colorWhite: #fff;
+
+// height and width
+$headerHeight: 100px;
+$headerTop: 50px;
+$headerBottom: calc(#{$headerHeight} - #{$headerTop});
+$widthContain: 1170px;

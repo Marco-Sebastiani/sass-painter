@@ -1,0 +1,15 @@
+header{
+    width: 100%;
+    height: $headerHeight;
+    background-color: $colorBlack;
+    @include containerLg;
+    .#{&}-top{
+        height: $headerTop;
+        background-color: $colorWhite;
+    }
+
+    .#{&}-bottom {
+        height: $headerBottom;
+        background-color: $lightBlue;
+    }
+}
