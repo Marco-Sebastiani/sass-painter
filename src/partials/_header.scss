@@ -5,11 +5,53 @@ header{
     @include containerLg;
     .#{&}-top{
         height: $headerTop;
-        background-color: $colorWhite;
+        @include flex(flex-end);
+        ul{
+        @include flex();
+            li{
+                padding: $p-20;
+                font-size: 0.9em;
+                a{
+                    color: $lightGrey;
+                    &:hover{
+                        color: $colorWhite;
+                    }
+                    i{
+                        margin-right: $m-r;
+                        color: $lightBlue;
+                    }
+                }
+            }
+
+        }
+
     }
 
     .#{&}-bottom {
         height: $headerBottom;
-        background-color: $lightBlue;
+        width: 90%;
+        ul{
+            @include flex (space-around);
+            li{
+                color: $colorWhite;
+                padding: $p-20;
+                &:not(:nth-child(1)):hover{
+                    background-color: $colorWhite;
+                    color: $colorBlack;
+                    a{
+                        color: $colorBlack;
+                    }
+                }
+                img{
+                    width: 70px;
+                }
+                a{
+                    color: $colorWhite;
+                }
+                i{
+                    font-size: 0.6em;
+                }
+            }
+        }
     }
 }

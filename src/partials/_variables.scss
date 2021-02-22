@@ -2,9 +2,15 @@
 $colorBlack: #000;
 $lightBlue: #009cff;
 $colorWhite: #fff;
+$lightGrey: #cecece;
 
 // height and width
 $headerHeight: 100px;
-$headerTop: 50px;
+$headerTop: 45px;
 $headerBottom: calc(#{$headerHeight} - #{$headerTop});
 $widthContain: 1170px;
+
+// padding and margin
+$p-15: 15px;
+$p-20: 20px;
+$m-r: 5px;

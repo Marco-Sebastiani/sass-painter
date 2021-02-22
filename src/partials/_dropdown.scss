@@ -1,0 +1,27 @@
+header li.parent-dropdown{
+    position: relative;
+    .dropdown{
+        position: absolute;
+        top: 90%;
+        width: 250px;
+        left: 0;
+        background-color: $colorWhite;
+        display: none;
+        ul{
+            @include flex(center ,flex-start);
+            flex-direction: column;
+            li{
+                width: 100%;
+                &:hover{
+                    background-color: $lightGrey;
+                }
+            }
+        
+        }
+    }
+    &:hover{
+        .dropdown{
+            display: block;
+        }
+    }
+}
