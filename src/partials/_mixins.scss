@@ -1,6 +1,6 @@
 @mixin containerLg {
     .container {
-        width: $widthContain;
+        max-width: $widthContain;
         margin: 0 auto;
     }
 }
@@ -9,4 +9,11 @@
     display: flex;
     justify-content: $justify;
     align-items: $align;
+}
+
+@mixin button  {
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
 }
