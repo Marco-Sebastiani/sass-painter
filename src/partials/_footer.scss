@@ -39,5 +39,30 @@ footer{
         height: $footerBottom;
         background-color: $colorBlack;
         color: $colorWhite;
+        @include containerLg;
+        .box-row-bottom{
+            height: 100px;
+            width: 100%;
+            @include flex(space-between);
+            .box-left{
+                @include flex($justify:none);
+                width: 50%;
+                height: 100%;
+                ul{
+                    @include flex (space-between);
+                    li{
+                        margin-right: 20px;
+                    }
+                }
+            }
+
+            .box-right{
+                width: 50%;
+                ul{
+                    @include flex(space-between);
+                    font-size: 0.8em;
+                }
+            }
+        }
     }
 }
