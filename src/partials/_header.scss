@@ -35,7 +35,8 @@ header{
             li{
                 color: $colorWhite;
                 padding: $p-20;
-                &:not(:nth-child(1)):hover{
+                cursor: pointer;
+                &:not(:first-child):hover{
                     background-color: $colorWhite;
                     color: $colorBlack;
                     a{
