@@ -9,7 +9,11 @@ $lightGrey: #cecece;
 $headerHeight: 100px;
 $headerTop: 45px;
 $headerBottom: calc(#{$headerHeight} - #{$headerTop});
+$footerHeight: 450px;
+$footerTop: 370px;
+$footerBottom: calc(#{$footerHeight} - #{$footerTop});
 $widthContain: 1170px;
+$widthAll: 100%;
 
 // padding and margin
 $p-15: 15px;
