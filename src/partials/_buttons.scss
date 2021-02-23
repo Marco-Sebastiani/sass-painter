@@ -20,4 +20,11 @@
             color: $colorWhite;
         }
     }
+    &-white{
+        background-color: $colorWhite;
+        color: $colorBlack;
+        &:hover {
+            background-color: $lightGrey;
+        }
+    }
 }
