@@ -8,7 +8,6 @@
             .box-gallery{
                 width: 50%;
                 height: 325px;
-                border: 1px solid $colorBlack;
                 h4{
                     color: $colorWhite;
                     font-size: 1.8em;
@@ -19,8 +18,13 @@
                     font-size: 1.1em;
                     line-height: 1.6;
                 }
-                &.violet{
+                &.blue,
+                &.violet,
+                &.grey{
                     padding: $p-50;
+                }
+
+                &.violet{
                     background-color: $lightViolet;
                 }
                 &.mushrooms{
@@ -32,8 +36,38 @@
                         width: 80%;
                         position: absolute;
                         top: 5px;
-                        left: 0;
+                        left: 10px;
                     }
+                    small{
+                        position: absolute;
+                        bottom: 10px;
+                        left: 15px;
+                        color:$lightGrey;
+                    }
+                }
+                &.eye{
+                    background-image: url('../img/eye.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    position: relative;
+                    small{
+                        position: absolute;
+                        font-size: 0.8em;
+                        bottom: 10px;
+                        left: 15px;
+                        color:$lightGrey;
+                    }
+                }
+                &.grey{
+                    background-color: #3c3c3c;
+                }
+                &.blue{
+                    background-color: $lightBlue;
+                }
+                &.businnes{
+                    background-image: url('../img/business-education.jpg');
+                    background-size: cover;
+                    background-position: center;
                 }
             }
     }

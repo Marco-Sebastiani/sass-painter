@@ -1,8 +1,7 @@
 #possibilities{
     width: $widthAll;
     background-color: $backGrey;
-    height: 600px;
-    padding: 40px 0;
+    padding: $p-50 ;
     @include containerLg;
     
     h2{

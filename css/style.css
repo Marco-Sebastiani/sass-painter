@@ -182,8 +182,7 @@ header li.parent-dropdown:hover .dropdown {
 #possibilities {
   width: 100%;
   background-color: #e8e8e8;
-  height: 600px;
-  padding: 40px 0;
+  padding: 50px;
 }
 #possibilities .container {
   max-width: 1170px;
@@ -250,7 +249,6 @@ header li.parent-dropdown:hover .dropdown {
 #gallery .box-row-gallery .box-gallery {
   width: 50%;
   height: 325px;
-  border: 1px solid #000;
 }
 #gallery .box-row-gallery .box-gallery h4 {
   color: #fff;
@@ -262,8 +260,10 @@ header li.parent-dropdown:hover .dropdown {
   font-size: 1.1em;
   line-height: 1.6;
 }
-#gallery .box-row-gallery .box-gallery.violet {
+#gallery .box-row-gallery .box-gallery.blue, #gallery .box-row-gallery .box-gallery.violet, #gallery .box-row-gallery .box-gallery.grey {
   padding: 50px;
+}
+#gallery .box-row-gallery .box-gallery.violet {
   background-color: #3c1567;
 }
 #gallery .box-row-gallery .box-gallery.mushrooms {
@@ -276,7 +276,37 @@ header li.parent-dropdown:hover .dropdown {
   width: 80%;
   position: absolute;
   top: 5px;
-  left: 0;
+  left: 10px;
+}
+#gallery .box-row-gallery .box-gallery.mushrooms small {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: #cecece;
+}
+#gallery .box-row-gallery .box-gallery.eye {
+  background-image: url("../img/eye.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#gallery .box-row-gallery .box-gallery.eye small {
+  position: absolute;
+  font-size: 0.8em;
+  bottom: 10px;
+  left: 15px;
+  color: #cecece;
+}
+#gallery .box-row-gallery .box-gallery.grey {
+  background-color: #3c3c3c;
+}
+#gallery .box-row-gallery .box-gallery.blue {
+  background-color: #009cff;
+}
+#gallery .box-row-gallery .box-gallery.businnes {
+  background-image: url("../img/business-education.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 footer {
