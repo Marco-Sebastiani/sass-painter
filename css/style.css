@@ -312,6 +312,7 @@ header li.parent-dropdown:hover .dropdown {
 footer {
   width: 100%;
   height: 450px;
+  background-color: #ececec;
 }
 footer .footer-top {
   width: 100%;

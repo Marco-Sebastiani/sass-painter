@@ -1,6 +1,7 @@
 footer{
     width: $widthAll;
     height:$footerHeight;
+    background-color: #ececec;
     .#{&}-top{
         @include containerLg;
         width: $widthAll;
