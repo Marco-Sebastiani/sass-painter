@@ -1,0 +1,49 @@
+#possibilities{
+    width: $widthAll;
+    background-color: $backGrey;
+    height: 600px;
+    padding: 40px 0;
+    @include containerLg;
+    
+    h2{
+        letter-spacing: 1.2px;
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.9em;
+        margin-bottom: 20px;
+    }
+
+    .box-row-poss{
+        @include flex(space-between);
+        .box-item-row{
+            width:32%;
+            background-color: $colorWhite;
+            cursor: pointer;
+
+            .box-img-row{
+                width: $widthAll;
+                img{
+                    width: $widthAll;
+                }
+            }
+            .box-text-row{
+                width: $widthAll;
+                padding: $p-20;
+                line-height: 1.6;
+                .new{
+                    font-style: italic;
+                    color: $lightBlue;
+                }
+                p{
+                    margin: 20px 0;
+                }
+                a{
+                    color: $lightBlue;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

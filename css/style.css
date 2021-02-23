@@ -168,6 +168,58 @@ header li.parent-dropdown:hover .dropdown {
   color: #c70cb9;
 }
 
+#possibilities {
+  width: 100%;
+  background-color: #e8e8e8;
+  height: 600px;
+  padding: 40px 0;
+}
+#possibilities .container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+#possibilities h2 {
+  letter-spacing: 1.2px;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.9em;
+  margin-bottom: 20px;
+}
+#possibilities .box-row-poss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#possibilities .box-row-poss .box-item-row {
+  width: 32%;
+  background-color: #fff;
+  cursor: pointer;
+}
+#possibilities .box-row-poss .box-item-row .box-img-row {
+  width: 100%;
+}
+#possibilities .box-row-poss .box-item-row .box-img-row img {
+  width: 100%;
+}
+#possibilities .box-row-poss .box-item-row .box-text-row {
+  width: 100%;
+  padding: 18px;
+  line-height: 1.6;
+}
+#possibilities .box-row-poss .box-item-row .box-text-row .new {
+  font-style: italic;
+  color: #009cff;
+}
+#possibilities .box-row-poss .box-item-row .box-text-row p {
+  margin: 20px 0;
+}
+#possibilities .box-row-poss .box-item-row .box-text-row a {
+  color: #009cff;
+}
+#possibilities .box-row-poss .box-item-row .box-text-row a:hover {
+  text-decoration: underline;
+}
+
 footer {
   width: 100%;
   height: 450px;
